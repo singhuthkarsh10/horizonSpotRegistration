@@ -1,0 +1,14 @@
+.dropdown-container {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.dropdown-select {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.selected-option {
+    margin-top: 10px;
+    color: blue;
+}
