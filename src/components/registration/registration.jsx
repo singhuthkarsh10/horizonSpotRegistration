@@ -45,7 +45,7 @@ const Registration = () => {
 
   const handleSubmit = async () => {
     try {
-      const response = await axios.post('http://127.0.0.1:5000/api/registration', formData);
+      const response = await axios.post('http://65.0.136.190:5000/api/registration', formData);
       console.log('Registration successful:', response.data);
       toast.success('Registration successful');
       setFormData(initialFormData); // Reset form fields
