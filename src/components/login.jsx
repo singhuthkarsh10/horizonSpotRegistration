@@ -23,7 +23,7 @@ const Login = () => {
 
     const handleSubmit = async () => {
         try {
-            const response = await axios.post('https://65.0.136.190:5000/api/login', {
+            const response = await axios.post('https://spotregistrationserver.onrender.com/api/login', {
                 userID: userID,
                 password: password
             });
